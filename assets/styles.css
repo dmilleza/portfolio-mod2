@@ -30,6 +30,51 @@ nav a {
     text-decoration: none;
 }
 
-main {
-    margin-top: 0;
+hr {
+    border: none;
+    height: 5px;
+    border-radius: 10px;
+    background: linear-gradient(to left, grey,white);
+    margin: 0;
 }
+
+.person {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 80vh;
+}
+
+.about {
+    width: 50%;
+    
+}
+.box {
+    min-width: 350px;
+    border: 5px solid black;
+    background: linear-gradient(to bottom, grey,black);
+    height: 200px;
+    padding: 20px;
+    margin: 100px 0px 100px 100px;
+    color: white;
+}
+
+.box h1 {
+    font-size: 2rem;
+}
+
+.box span {
+    font-size: 4em;
+    font-weight: 200;
+}
+.pfp {
+    width: 50%;
+}
+ .pfp div {
+    background-image: url("./images/ready\ pfp.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    border-radius: 100% 100% 100% 100%;
+ }
