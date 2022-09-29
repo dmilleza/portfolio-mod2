@@ -4,69 +4,264 @@ body {
     padding: 0;
 }
 
-main {
-    margin: 20px;
+header {
+    background-color: #7A7777;
+    min-height: 90px;
+    padding: 10px;
+}
+ 
+nav {
+    min-height: 90px;
+    width: 50%;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-around;
+    align-items: center;
+    float: right;
+}
+nav a:link {
+    font-size: 2.3rem;
+    text-decoration: none;
+    color:white;
+    font-weight: 500;
+    
+}
+
+nav a:hover {
+    border-bottom: 2px solid white;
+    color: white;
+    
+}
+
+nav a:active {
+    color: black;
+}
+
+nav a:focus {
+    border-bottom: 2px solid white;
+    color: black;
+    
+
+}
+nav a:visited {
+    color: white;
 }
 
 .row {
     width: 100%;
     display: flex;
-    justify-content: flex-start;
     flex-flow: row wrap;
     height: 700px;
+    background-color: black;
+    
 }
 .card-01 {
-    background-color: bisque;
+    background-color: black;
     position: relative;
-    flex: ;
-    height: 400px;
+    min-height: 400px;
     margin: 20px;
 
 }
 .card11 {
-    max-width: 200px;
+    width: 40%;
+    margin-left: 180px;
+}
+
+.card11 h1 {
+    font-size: 3em;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.box span {
+    font-size: 3em;
+    width: 100%;
+}
+
+.box p {
+    color: white;
+    font-size: 2rem;
+}
+
+.box {
+    height: 100%;
+    position: relative;
+
+    
 }
 
 .card12 {
     min-width: 300px;
-    background-color: green;
+    flex: 1; 
+    background-image: url(./images/ready\ pfp.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 600px;
+    background-position: top left;
+    
+}
+
+hr {
+    border: none;
+    height: 5px;
+    border-radius: 10px;
+    background: linear-gradient(to left, grey,white);
+    margin: 0;
 }
 
 .card-02 {
-    background-color: grey;
-    position: relative;
-    flex: 1;
-    max-width: 400px;
-    height: 400px;
-    margin: 20px;
-
-}
-
-.card-03 {
     background-color: black;
     position: relative;
     flex: 1;
-    max-width: 400px;
-    height: 400px;
+    height: 600px;
     margin: 20px;
 
 }
 
+.card21 {
+    padding: 10px;
+    border-right: 10px solid white;
+    background-color: black;
+
+}
+
+ .card21 h1 {
+   color: white;
+   float:right;
+   font-size: 4rem;
+   margin-right: 20px;
+}
+
+.card22 {
+    flex: 2;
+    display: flex;
+    padding: 10px;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+
+}
+
+.website {
+    color: white;
+    min-height:150px;
+}
+
+.website-1 {
+    flex: 100%;
+    background-image: url(./images/Screen\ Shot\ 2022-09-28\ at\ 8.53.30\ PM.png);
+    background-size: cover;
+    opacity: 0.6;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    position: relative;
+}
+
+.website-1:hover {
+    opacity: 1;
+}
+
+.website-1 p {
+    height: 40px;
+    border: 4px solid black;
+    width: 30%;
+    position: absolute;
+    opacity: 1;
+    top: 220px;
+    left: 20px;
+    background-color: grey;
+    padding: 5px;
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+.website-2 {
+    background-image: url(./images/Screen\ Shot\ 2022-09-28\ at\ 9.50.14\ PM.png);
+    background-size: contain;
+    width: 45%;
+    position: relative;
+    opacity: 0.6;
+}
+
+.website-2:hover {
+    opacity: 1;
+}
+.website-2 p {
+    height: 40px;
+    border: 4px solid black;
+    width: 30%;
+    position: absolute;
+    opacity: 1;
+    bottom: 5px;
+    left: 10px;
+    background-color: grey;
+    padding: 5px;
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+.website-3 {
+    background-image: url(./images/Screen\ Shot\ 2022-09-28\ at\ 9.50.14\ PM.png);
+    background-size: contain;
+    width: 45%;
+    position: relative;
+    opacity: 0.6;
+}
+
+.website-3:hover {
+    opacity: 1;
+}
+
+.website-3 p {
+    height: 40px;
+    border: 4px solid black;
+    width: 35%;
+    position: absolute;
+    opacity: 1;
+    bottom: 5px;
+    left: 10px;
+    background-color: grey;
+    padding: 5px;
+    font-size: 1.8rem;
+    margin: 0;
+}
+.card-03 {
+    background-color: greenyellow ;
+    position: relative;
+    max-width: 400px;
+    height: 100px;
+    margin: 20px;
+}
+
+.card31 {
+    padding: 10px;
+    border-right: 10px solid white;
+    background-color: black;
+    color: white;
+}
 @media all and (max-width: 800px) {
+
+    .row {
+        min-height: 900px;
+        display: block;
+        justify-content: center;
+    }
     .card-01 {
-        flex: 60%;
+        flex: 100%;
         max-width: 600px;
         height: 400px;
     }
 
     .card-02 {
-        flex: 60%;
+        flex: 100%;
         max-width: 600px;
         height: 400px;
     }
+    }
 
     .card-03 {
-        flex: 60%;
+        flex: 100%;
         max-width: 600px;
         height: 400px;
     }
