@@ -235,10 +235,15 @@ hr {
 }
 
 .card31 {
-    padding: 10px;
+   
     border-right: 10px solid white;
     background-color: black;
     color: white;
+}m                                                                                                  jhyt
+
+.row-3 {
+    height: 400px;
+    padding:10px;
 }
 @media all and (max-width: 800px) {
 
