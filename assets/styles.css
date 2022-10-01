@@ -20,12 +20,12 @@ nav {
     align-items: center;
     float: right;
 }
+
 nav a:link {
     font-size: 2.3rem;
     text-decoration: none;
     color:white;
-    font-weight: 500;
-    
+    font-weight: 500; 
 }
 
 nav a:hover {
@@ -41,9 +41,8 @@ nav a:active {
 nav a:focus {
     border-bottom: 2px solid white;
     color: black;
-    
-
 }
+
 nav a:visited {
     color: white;
 }
@@ -54,19 +53,20 @@ nav a:visited {
     flex-flow: row wrap;
     height: 700px;
     background-color: black;
-    
 }
+
 .card-01 {
     background-color: black;
     position: relative;
     min-height: 400px;
     margin: 20px;
-
 }
+
 .card11 {
     width: 40%;
     margin-left: 180px;
 }
+
 
 .card11 h1 {
     font-size: 3em;
@@ -87,8 +87,6 @@ nav a:visited {
 .box {
     height: 100%;
     position: relative;
-
-    
 }
 
 .card12 {
@@ -99,7 +97,6 @@ nav a:visited {
     background-repeat: no-repeat;
     height: 600px;
     background-position: top left;
-    
 }
 
 hr {
@@ -107,7 +104,6 @@ hr {
     height: 5px;
     border-radius: 10px;
     background: linear-gradient(to left, grey,white);
-    margin: 0;
 }
 
 .card-02 {
@@ -121,9 +117,8 @@ hr {
 
 .card21 {
     padding: 10px;
-    border-right: 10px solid white;
+    border-right: 8px solid white;
     background-color: black;
-
 }
 
  .card21 h1 {
@@ -140,7 +135,6 @@ hr {
     flex-flow: row wrap;
     align-items: flex-start;
     justify-content: space-around;
-
 }
 
 .website {
@@ -187,6 +181,7 @@ hr {
 .website-2:hover {
     opacity: 1;
 }
+
 .website-2 p {
     height: 40px;
     border: 4px solid black;
@@ -226,27 +221,52 @@ hr {
     font-size: 1.8rem;
     margin: 0;
 }
+
 .card-03 {
-    background-color: greenyellow ;
+    background-color: black ;
     position: relative;
-    max-width: 400px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     margin: 20px;
+    flex: 1;
+   
 }
 
 .card31 {
    
-    border-right: 10px solid white;
+    border-right: 8px solid white;
     background-color: black;
     color: white;
-}m                                                                                                  jhyt
+    padding: 10px;
+}                                         
+
+.card31 h1 {
+    color: white;
+    float:right;
+    font-size: 4rem;
+    margin-right: 20px;
+ }
+ 
+ .card32 {
+    flex: 2;
+    display: flex;
+    padding: 10px;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.card32 p {
+    font-size: 2em;
+    color: white;
+    font-weight: bolder;
+}
 
 .row-3 {
     height: 400px;
-    padding:10px;
 }
-@media all and (max-width: 800px) {
 
+@media all and (max-width: 800px) {
     .row {
         min-height: 900px;
         display: block;
@@ -263,8 +283,7 @@ hr {
         max-width: 600px;
         height: 400px;
     }
-    }
-
+    
     .card-03 {
         flex: 100%;
         max-width: 600px;
