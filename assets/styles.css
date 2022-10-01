@@ -272,7 +272,7 @@ hr {
         width: 100%;
         justify-content: space-around;
     }
-    
+
     .row {
         justify-content: center;
         position: relative;
@@ -318,6 +318,7 @@ hr {
         margin: 0;
         padding: 0;
     }
+    
     .card31 {
         height: 110px;
         border: none;
@@ -326,12 +327,14 @@ hr {
         padding: 0;
         width: 100%;
     }
+    
     .card31 h1 {
         text-align: center;
         margin: 0;
         float: none;
         padding: 10px;
      }
+    
     .card-01 {
         flex: 100%;
         max-width: 600px;
@@ -342,7 +345,6 @@ hr {
     .box {
         margin-left: 100px;
     }
-    
 }
 
 @media screen and (max-width: 940px) {
@@ -355,6 +357,7 @@ hr {
         float: left;
     }
 }
+
 @media screen and (max-width: 580px) {
     .card11 h1 {
         font-size: 2em;
@@ -380,18 +383,20 @@ hr {
      .card12 {
         display: block;
         width: 100%;
-     }
+    }
 
     .row-1 {
         display: block;
         height: 1100px;
     }
+   
     .box {
         margin: 0 auto;
         text-align: center;
         height: 420px;
         width: 100%;
     }
+    
     .website-2 p {
         left: 1px;
     }
@@ -453,8 +458,8 @@ hr {
         color: white;
         font-size: 1rem;
         text-align: center;
-         width: 80%; 
-         margin: 0 auto;
+        width: 80%; 
+        margin: 0 auto;
     }
 
     .row-1 {
@@ -478,21 +483,22 @@ hr {
     .website p {
         font-size: 1rem;
     }
+    
     .website-1 p {
         width: 150px;
         height: 20px;
         left: 30px;
         top: 250px;
-        }      
+    }      
         
         .website-2 p {
         width: 60px;
         height: 20px;
-        }
+    }
         
         .website-3 p {
         width: 80px;
         height: 20px;
-     }
+    }
 }
     
